@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel website </title>
+    <link rel="icon" type="image/png" href="/18_Hotel_images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></a>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-afect="100">
+    <!-- navbar careate -->
+    <header class="header-warper">
+        <nav class="navbar navbar-expand-lg ">
+
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="18_Hotel_images/logo.png" class="img-fluid" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-stream navbar-toggler-icon "></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Rooms">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price">Price</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-1g-0">
+                            <a class="main-btn" href="#">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="Home" class="banner_wrapper p-0">
+        <div class="swiper myswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(18_Hotel_images/slider/slider2.webp);">
+                    <div class="slid-caption text-center">
+                        <div>
+                            <h1>Welcome To Hotel in dubai</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus minus tempore, est ut
+                                saepe velit nam ex excepturi, veniam officiis ipsam molestias. Quibusdam, quis? Minus
+                                porro
+                                quas culpa enim ab.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(18_Hotel_images/slider/slider1.webp);">
+                    <div class="slid-cation text-center">
+                        <div>
+                            <h1>Welcome To Hotel in dubai</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus minus tempore, est ut
+                                saepe velit nam ex excepturi, veniam officiis ipsam molestias. Quibusdam, quis? Minus
+                                porro
+                                quas culpa enim ab.</p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination-bullets"></div>
+
+        </div>
+        <div class="container booking-area">
+            <form class="row">
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <button type="submit" class="main-btn rounded-2 px-lg-3"> Check Availability
+
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="About" class="About_wrapper">
+        <div class="container">
+            <div class="row flex-lg-row flex-columm-reverse">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3>Welcome to <span>Hotel <br class="d-none d-lg-block">
+                            the haven </span> of your weekend</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem fuga autem unde ratione tempora
+                        repellendus iusto rem veritatis reprehenderit architecto, illum provident cumque dolor non
+                        dolorum voluptatum odit sunt. Blanditiis?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sunt provident nam ipsam totam
+                        tenetur nisi quibusdam recusandae a. A, deleniti commodi. Dolor explicabo aliquam recusandae
+                        fugit, doloribus perspiciatis sed!</p>
+                    <a href="" class="main-btn mt-4"> Explore</a>
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+                    <img src="18_Hotel_images/about-img.svg" class="img-fluid" alt="About">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- /room/ -->
+    <section id="Rooms" class="rooms_wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h5>What I Can do for you ?</h5>
+                    <h2>Our Favourit Rooms</h2>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="18_Hotel_images/room/room1.webp" class="img-fluid">
+                        <div class="room-items-wrap">
+                            <div class="room-content">
+                                <h5 class="text-black mb-lg-5 text-decoration-underline">
+                                    Royal suit
+                                </h5>
+                                <p class="text-black"> Discover five of our Favourit dresses from our new collection
+                                    that are destined to worn and loved </p>
+                                <p class="text-black fw-bold mb-lg-4"> $2200 / Per Moth</p>
+                                <a class="main-btn border-white text-black mt-1g-5" href="#">Book Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="18_Hotel_images/room/room2.webp" class="img-fluid">
+                        <div class="room-items-wrap">
+                            <div class="room-content">
+                                <h5 class="text-black mb-lg-5 text-decoration-underline">
+                                    Royal suit
+                                </h5>
+                                <p class="text-black"> Discover five of our Favourit dresses from our new collection
+                                    that are destined to worn and loved </p>
+                                <p class="text-black fw-bold mb-lg-4"> $2400 / Per Moth</p>
+                                <a class="main-btn border-white text-black mt-1g-5" href="#">Book Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="18_Hotel_images/room/room3.webp" class="img-fluid">
+                        <div class="room-items-wrap">
+                            <div class="room-content">
+                                <h5 class="text-black mb-lg-5 text-decoration-underline">
+                                    Royal suit
+                                </h5>
+                                <p class="text-black"> Discover five of our Favourit dresses from our new collection
+                                    that are destined to worn and loved </p>
+                                <p class="text-black fw-bold mb-lg-4"> $200 / Per Moth</p>
+                                <a class="main-btn border-white text-black mt-1g-5" href="index.html">Book Now</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="Services" class="Services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h5>We Are Here for you?</h5>
+                    <h2>Our Awsome Services</h2>
+                </div>
+            </div>
+            <div class="row align-items-center Services-item-wrap">
+                <div class="col-lg-7 p-lg-0">
+                    <div class="tab-Content" id="myTabContent">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="spa" role="tabpanel">
+                                <img src="18_Hotel_images/services/service1.webp">
+                            </div>
+                            <div class="tab-pane fade" id="restaurent" role="tabpanel">
+                                <img src="18_Hotel_images/services/service2.webp">
+                            </div>
+                            <div class="tab-pane fade" id="swimming" role="tabpanel">
+                                <img src="18_Hotel_images/services/service3.webp">
+                            </div>
+                            <div class="tab-pane fade" id="conference" role="tabpanel">
+                                <img src="18_Hotel_images/services/service6.webp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 position-relative">
+                    <div class="service-menu-area">
+                        <ul class="nav">
+                            <li>
+                                <a data-bs-toggle="tab" href="#spa" class="active">
+                                    <span class="service-icon">
+                                        <img src="18_Hotel_images/services/service-icon1.webp" alt="">
+                                    </span>
+                                    <h5>Spa ,beauty & health</h5>
+                                    <p><span>Spa and beauty</span> Iupatatem quia voluptas sit aseperntur outdit
+                                        out
+                                        fught sea quia</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tab" href="restaurent" class="active">
+                                    <span class="service-icon">
+                                        <img src="18_Hotel_images/services/service-icon2.webp" alt="">
+                                    </span>
+                                    <h5>Restaurent</h5>
+                                    <p><span>Restaurent</span> Iupatatem quia voluptas sit aseperntur outdit out
+                                        fught sea quia</p>
+                                </a>
+                            </li>
+                            <li>
+
+                                <a data-bs-toggle="tab" href="swimming" class="active">
+                                    <span class="service-icon">
+                                        <img src="18_Hotel_images/services/service-icon3.webp" alt="">
+                                    </span>
+                                    <h5>Swimming Poll</h5>
+                                    <p><span>Swimming</span> Iupatatem quia voluptas sit aseperntur outdit out
+                                        fught sea quia</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tab" href="conference" class="active">
+                                    <span class="service-icon">
+                                        <img src="18_Hotel_images/services/service-icon4.webp" alt="">
+                                    </span>
+                                    <h5>Conference Hall</h5>
+                                    <p><span>Conference</span> Iupatatem quia voluptas sit aseperntur outdit out
+                                        fught sea quia</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="counter mt-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count1"></span>+
+                        </h1>
+                        <p>Happy Clintes</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count2"></span>+
+                        </h1>
+                        <p>Happy Friendship</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count3"></span>+
+                        </h1>
+                        <p>Five Star Reatings</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count4"></span>+
+                        </h1>
+                        <p> Served BreakFast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"></script>
+    <script src="/java/main.js"></script>
+</body>
+
+</html>
