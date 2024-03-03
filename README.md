@@ -1,13 +1,14 @@
 <h1>Create a hafe hotel web site</h1>
-![navbar](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/8dc468a0-afdb-468f-b274-0fadca34d67f)
-<!-- ![2](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/6f4ecef0-cf5f-45fd-82d9-0e45e2abf4bc)
-![firstpic](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/a42d63be-c6f5-4fe9-a76e-b946e53fc10f)
-![firstpic](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/02c3f1e9-2998-4108-9186-b50e0004e490)
-![4pic](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/a99b132e-eeab-4182-93af-ead466d254a2)
-![5](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/78e3c7b6-7084-412e-9fef-b21e6473e166)
- -->
+
+ 
 
 
 
+![5](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/a5817806-bd77-4ef5-84c2-91d88e4ec473)
+![4pic](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/ef7bd371-0c01-484e-bd3c-987203c6fa2b)
+![2](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/6a3c8755-818f-4227-8329-f16c381e5321)
+![picture3](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/09a53407-e359-412b-bd3c-dd51779e64b2)
+![navbar](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/b1366d00-e6a1-4ec1-8b13-e733625acb0a)
+![firstpic](https://github.com/Siddiquiweb/HOTEL-WEBSITE/assets/157453608/9da3ae04-e8c7-46c5-98d8-02214d6707d7)
 
 
